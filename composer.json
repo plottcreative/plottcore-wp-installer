@@ -8,11 +8,6 @@
             "Plott\\Composer\\": "src/"
         }
     },
-	"autoload-dev": {
-		"psr-4": {
-			"Plott\\Plottcore\\Composer\\": "tests/"
-		}
-	},
 	"extra": {
 		"class": "Plott\\Plottcore\\WordPressCorePlugin"
 	},
