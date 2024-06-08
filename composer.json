@@ -5,11 +5,11 @@
     "license": "GPL-2.0-or-later",
     "autoload": {
         "psr-4": {
-            "Plott\\Plottcore\\": "src/"
+            "Plott\\Composer\\": "src/"
         }
     },
 	"extra": {
-		"class": "Plott\\Plottcore\\WordPressCorePlugin"
+		"class": "Plott\\Composer\\WordPressCorePlugin"
 	},
     "require": {
         "composer-plugin-api": "^1.0 || ^2.0",
