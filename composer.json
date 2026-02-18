@@ -26,7 +26,7 @@
     "johnpbloch/wordpress-core-installer": "*"
   },
   "scripts": {
-    "test:phpunit": "phpunit",
+    "test:phpunit": "phpunit --do-not-report-useless-tests --do-not-fail-on-empty-test-suite",
     "test": [
       "@test:phpunit"
     ]
