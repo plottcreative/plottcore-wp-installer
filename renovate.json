@@ -2,6 +2,7 @@
   "extends": [
     "config:recommended"
   ],
+  "enabled": false,
   "automerge": true,
   "automergeType": "pr",
   "automergeStrategy": "squash",
