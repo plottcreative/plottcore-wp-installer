@@ -1,16 +1,19 @@
 {
   "extends": [
-    "config:base"
+    "config:recommended"
   ],
   "automerge": true,
   "automergeType": "pr",
   "automergeStrategy": "squash",
-  "requiredStatusChecks": null,
+  "ignoreTests": true,
   "prCreation": "immediate",
   "packageRules": [
     {
       "automerge": true,
-      "matchUpdateTypes": ["minor", "patch"]
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ]
     }
   ]
 }
